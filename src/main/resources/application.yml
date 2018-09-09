@@ -1,0 +1,13 @@
+# Spring properties
+spring:
+  # Dev is active by default. This value can be overwritten by java arg param 
+  profiles:
+    active: heroku
+  application:
+    name: tourofheroes-api
+  messages:
+    basename: bundles/languageBundle
+
+logging:
+  level.root: INFO
+  file: heroapi.log
